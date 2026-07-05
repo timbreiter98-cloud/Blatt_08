@@ -1,0 +1,11 @@
+package zoo.command;
+
+public enum ZooError {
+    ANIMAL_ALREADY_PRESENT,
+    ANIMAL_NOT_FOUND,
+    UNDO_NOT_POSSIBLE,
+    NO_COMMAND_TO_UNDO,
+    NO_COMMAND_TO_REDO,
+    NULL_COMMAND,
+    NULL_TARGET
+}
